@@ -24,3 +24,10 @@ Kaggle: **"binaaz-sale-project"** by `sehriyarmemmedli`
   (e.g. a per-m² unit price, or a precomputed total) must be **dropped**
   before training. Name the columns you removed in your report.
 - Record the dataset version/date you downloaded, for reproducibility.
+
+## Dataset version
+- Source: Kaggle, "binaaz-sale-project" by sehriyarmemmedli
+- Downloaded on: 2026-10-14
+- Kaggle dataset version: Version 1
+- File used: data/bina_az_sale.csv
+- Rows x columns (raw): 100,775 x 51
