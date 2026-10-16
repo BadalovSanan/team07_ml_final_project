@@ -20,6 +20,7 @@ grader can read the headline numbers straight from the console.
 from __future__ import annotations
 
 from . import data_prep
+from . import eda
 # from .decision_tree import DecisionTree
 # from .svm import PegasosSVM
 # from . import evaluate
@@ -27,11 +28,16 @@ from . import data_prep
 
 def main() -> None:
     # 1. data -------------------------------------------------------------
-    # df = data_prep.load_raw()
-    # df = data_prep.clean(df)
-    # X, y, feat_names = data_prep.make_features(df)
-    # splits = data_prep.train_val_test_split(X, y)
-    # ...
+    df = data_prep.load_raw()
+    df = data_prep.clean(df)
+    X, y, feat_names = data_prep.make_features(df)
+    splits = data_prep.train_val_test_split(X, y)
+    # EDA figures -> report/figures/
+    eda.price_distribution(df)
+    eda.area_vs_price(df)
+    eda.rooms_vs_price(df)
+    eda.location_effect(df)
+    eda.tier_balance(df)
 
     # 2. Task A: regression (price) --------------------------------------
     #    - your DecisionTree(task="regression", criterion="mse")
