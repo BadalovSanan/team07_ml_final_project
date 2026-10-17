@@ -1,13 +1,13 @@
 ## Team
 | Member (Surname, Name) | GitHub handle | Main responsibilities |
 |------------------------|---------------|-----------------------|
-| Badalov, Sanan         | BadalovSanan  | Team lead, exploratory data analysis (EDA), and core report coordination |
+| Badalov, Sanan         | BadalovSanan  | Team lead, Data cleaning pipeline (`src/data_prep.py`), evaluation metrics (`src/evaluate.py`), exploratory data analysis (EDA)  (`src/eda.py`), initial pipeline setup (`src/run_all.py`) & Ridge regression baseline (`src/ridge.py`), and core report coordination |
 | Hasanli, Oghuz         | Oghuz20 | Decision Tree implementation (`src/decision_tree.py`) & tree experiment sweeps |
 | Sadigov, Sadigov       | sadigsadikhov | Pegasos SVM implementation (`src/svm.py`) & kernelization / Random Fourier Features |
 | Hasanli, Ali           | ali-hasanli | Pipeline orchestration (`src/run_all.py`), data cleaning pipeline, and evaluation metrics |
 
 ## Per-member summary
-**Badalov, Sanan —** Led project coordination and exploratory data analysis (EDA) for Problem 1, generating pricing and geographic distribution plots. Assisted in structuring the IEEE report, compiling final benchmark outcomes, and organizing team presentation milestones.
+**Badalov, Sanan —** Led project coordination and built the data cleaning pipeline for Problem 1 (`src/data_prep.py`), including leakage removal, the stratified split and the train-median tier label, and wrote the from-scratch evaluation metrics (`src/evaluate.py`). Generated the EDA figures (`src/eda.py`), created the initial `src/run_all.py`, and implemented the Ridge regression baseline (`src/ridge.py`).
 
 **Hasanli, Oghuz —** Implemented the core Decision Tree algorithm from scratch in NumPy (`src/decision_tree.py`), supporting Gini impurity, Entropy with Information Gain, and MSE reduction for regression. Developed the tree hyperparameter sweep modules and verified split correctness against scikit-learn reference baselines.
 
