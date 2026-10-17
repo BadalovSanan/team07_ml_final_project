@@ -1,0 +1,14 @@
+{
+  "classification": {
+    "criterion": "gini",
+    "max_depth": 20,
+    "min_samples_leaf": 1,
+    "val_f1": 0.9327605856053302
+  },
+  "regression": {
+    "criterion": "mse",
+    "max_depth": 12,
+    "min_samples_leaf": 5,
+    "val_rmse_log": 0.35320631908727024
+  }
+}
