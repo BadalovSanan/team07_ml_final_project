@@ -3,7 +3,7 @@
 |------------------------|---------------|-----------------------|
 | Badalov, Sanan         | BadalovSanan  | Team lead, exploratory data analysis (EDA), and core report coordination |
 | Hasanli, Oghuz         | Oghuz20 | Decision Tree implementation (`src/decision_tree.py`) & tree experiment sweeps |
-| Sadigov, Sadigov       | [GitHubHandle] | Pegasos SVM implementation (`src/svm.py`) & kernelization / Random Fourier Features |
+| Sadigov, Sadigov       | sadigsadikhov | Pegasos SVM implementation (`src/svm.py`) & kernelization / Random Fourier Features |
 | Hasanli, Ali           | ali-hasanli | Pipeline orchestration (`src/run_all.py`), data cleaning pipeline, and evaluation metrics |
 
 ## Per-member summary
